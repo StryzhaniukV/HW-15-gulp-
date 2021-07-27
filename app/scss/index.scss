@@ -1,0 +1,21 @@
+@import "bootstrap/scss/bootstrap";
+@import "animate.css/animate";
+@import url('../../node_modules/bootstrap-icons/font/bootstrap-icons.css');
+
+@import "./common/index.scss";
+
+@import "./components/_banner/index.scss";
+
+@import "./components/_header/index.scss";
+
+@import "./components/_exp_serv/_main/index.scss";
+
+@import "./components/_team/index.scss";
+
+@import "./components/_cases/index.scss";
+
+@import "./components/_clients/index.scss";
+
+@import "./components/_publications/index.scss";
+
+@import "./components/_footer/index.scss";
