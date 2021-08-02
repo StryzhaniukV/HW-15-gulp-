@@ -1,6 +1,10 @@
 .cases {
     margin-bottom: 30px;
-    .cases__col-bg {
+    &__col-bg {
+        background-color: $grey-light;
+        min-height: 198px;
+        border: 1px solid $white;
+        
         &:first-child {
             border-radius: 20px 0 0 0;
         }
@@ -13,9 +17,6 @@
         &:nth-child(6) {
             border-radius:  0 0 20px 0;
         }
-        background-color: $grey-light;
-        min-height: 198px;
-        border: 1px solid $white;
         &:nth-child(-n+3) {
             min-height: 255px;
         }

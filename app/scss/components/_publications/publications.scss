@@ -7,14 +7,6 @@
     .publications__nav {
         
         @include text(14px,900,17px,uppercase,$blue);
-        
-        &::after {
-            content: '›';
-            font-size: 20px;
-            margin-left: 5px;   
-        }
-    
-    
     }
     h2 {
         margin-bottom: 40px;

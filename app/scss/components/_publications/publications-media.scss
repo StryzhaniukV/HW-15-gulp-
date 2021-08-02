@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: $media-size) {
     .publications {
         padding-bottom: 40px;
         overflow: inherit;

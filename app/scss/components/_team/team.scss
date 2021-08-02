@@ -22,12 +22,7 @@
         background-color: $grey-light;
         border: 0;
             .team__nav {
-            color: $blue;
-            &::after {
-                content: '›';
-                font-size: 20px;
-                margin-left: 5px;   
-            }
+                @include text(14px,900,17px,uppercase,$blue);
         }
         .card_heading {
             @extend %gradient-reverce;
